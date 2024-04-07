@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="App\Test\TestCase\Model\Table\UsersControllerTest" file="C:\Users\imswa\Sites\cake4\tests\TestCase\Controller\UsersControllerTest.php" tests="4" assertions="10" errors="0" warnings="0" failures="0" skipped="0" time="0.398515">
+    <testcase name="testAdd" class="App\Test\TestCase\Model\Table\UsersControllerTest" classname="App.Test.TestCase.Model.Table.UsersControllerTest" file="C:\Users\imswa\Sites\cake4\tests\TestCase\Controller\UsersControllerTest.php" line="48" assertions="4" time="0.151395"/>
+    <testcase name="testUpdate" class="App\Test\TestCase\Model\Table\UsersControllerTest" classname="App.Test.TestCase.Model.Table.UsersControllerTest" file="C:\Users\imswa\Sites\cake4\tests\TestCase\Controller\UsersControllerTest.php" line="70" assertions="3" time="0.055627"/>
+    <testcase name="testDelete" class="App\Test\TestCase\Model\Table\UsersControllerTest" classname="App.Test.TestCase.Model.Table.UsersControllerTest" file="C:\Users\imswa\Sites\cake4\tests\TestCase\Controller\UsersControllerTest.php" line="91" assertions="2" time="0.059157"/>
+    <testcase name="testAddAuthenticated" class="App\Test\TestCase\Model\Table\UsersControllerTest" classname="App.Test.TestCase.Model.Table.UsersControllerTest" file="C:\Users\imswa\Sites\cake4\tests\TestCase\Controller\UsersControllerTest.php" line="113" assertions="1" time="0.132337"/>
+  </testsuite>
+</testsuites>

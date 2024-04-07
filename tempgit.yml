@@ -1,0 +1,17 @@
+# .gitlab-ci.yml
+
+# Define stages for the pipeline
+stages:
+  - test
+
+# Define job for PHPUnit tests
+phpunit:
+  stage: test
+  image: php:7.4-cli
+  before_script:
+    - apt-get update && apt-get install -y zip unzip libicu-dev
+    - docker-php-ext-install intl # Install the ext-intl PHP extension 
+    - bin/cake migrations migrate -q
+  script:
+    - vendor/bin/phpunit
+  
