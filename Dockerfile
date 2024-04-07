@@ -8,6 +8,10 @@ RUN a2enmod rewrite
 # Add ServerName directive to suppress Apache warning
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f7089a29577c8e236e85c00d93d66e112a61fefb
 RUN apt-get update -y && \
     apt-get install -y \
     libicu-dev \
